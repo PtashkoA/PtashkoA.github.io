@@ -75,7 +75,7 @@ nav li {
 nav a {
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .content {
@@ -83,7 +83,7 @@ nav a {
   margin: 0 auto;
   max-width: 960px;
   align-content: center;
-  color: grey;
+  color: black;
 }
 
 a {
