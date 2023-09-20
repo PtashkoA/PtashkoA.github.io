@@ -104,40 +104,82 @@
       </table>
 
  <form action = "/" method = "post">
-<p>Фамилия Имя Отчество: </p>  
-<textarea>текстовое поле </textarea>  
-<p>Телефон </p>  
-<input type = "text" name = "tel" id = "tel" placeholder = "поле tel">  
-<p>Поле e-mail: </p>  
-<input type = "text" name = "email" id = "email" placeholder = "поле e-mail">  
-<p>Дата рождения: </p>  
-<input type = "date" name = "date-picker" id = "date-picker">  
-<p>Биография: </p>  
-<textarea name = "comment" cols = "35"> </textarea>  
-  <p>Список с множественным выбором любимых языков: </p>  
-      <select name="" multiple>  
-          <option value="Pascal">Pascal </option>  
-          <option value="C">C </option>  
-          <option value="C++">C++ </option>  
-          <option value="Java">Java  </option>  
-          <option value="PHP">PHP </option>  
-          <option value="Python">Python </option>  
-          <option value="Haskel">Haskel </option>  
-          <option value="Prolog">Prolog </option>  
-          <option value="Scala">Scala </option>  
-          <option value="Clojure">Clojure </option>  
-       </select>  
-      <p>выбор пола: </p>  
-      <input type = "radio" name = "radio-group" id = "radio1" value = "option1">  
-      <label for = "radio1">Ж </label>  
-        
-      <input type = "radio" name = "radio-group" id = "radio2" value = "option2">  
-      <label for = "radio2">М </label>  
-      <p>Чекбокс: </p>  
-      <input type = "checkbox" id = "Checkbox">  
-      <label for = "Checkbox">с контрактом ознакомлен (а) </label>  
-      <p>кнопка сохранения </p>>
-      <button  type = " submit ">Сохранить </button >
+<label>
+          ФИО: <br />
+          <input type="text" name="name" placeholder="Введите ваше ФИО" />
+        </label>
+        <br />
+        <label>
+          Телефон: <br />
+          <input
+            type="tel"
+            name="field-tel"
+            placeholder="Введите ваш телефон"
+          />
+        </label>
+        <br />
+        <label>
+          E-mail: <br />
+          <input
+            type="email"
+            name="field-email"
+            placeholder="Введите ваш e-mail"
+          />
+        </label>
+        <br />
+        <label>
+          Дата рождения: <br />
+          <input type="date" name="field-date-of-birth" value="2023-09-05" />
+        </label>
+        <br />
+        <label>
+          Пол: <br />
+          <input
+            class="checkboxes"
+            type="radio"
+            name="radio-group-1"
+            checked="checked"
+          />
+          Мужской <br />
+        </label>
+        <label>
+          <input class="checkboxes" type="radio" name="radio-group-1" />
+          Женский
+        </label>
+        <br />
+        <label>
+          Любимый язык программирования: <br />
+          <select name="field-favorite-language" multiple="multiple">
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+          </select>
+        </label>
+        <br />
+        <label>
+          Биография: <br />
+          <textarea name="bio" placeholder="Напишите о себе..."></textarea>
+        </label>
+        <br />
+        <label>
+          <input class="checkboxes" type="checkbox" name="check-1" />
+          С контрактом ознакомлен(а)
+        </label>
+        <br />
+        <label>
+          <input type="submit" value="Сохранить" />
+        </label>
+        <label>
+          <input type="submit" value="Сохранить" />
+        </label>
  </form>
     </div>
     <footer>
