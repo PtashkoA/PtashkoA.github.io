@@ -1,5 +1,5 @@
 body {
-  background-color: ##F08080;
+  background-color: #F08080;
 }
 
 header {
@@ -40,13 +40,13 @@ header #website-name {
   position: absolute;
   top: 50px;
   left: 300px;
-  color: #ffffff;
+  color: black;
   font-family: Georgia, "Times New Roman";
   font-size: 60px;
 }
 
 .menu a {
-  color: white;
+  color: red;
   text-decoration: none;
   font-size: 25px;
   font-family: cursive;
@@ -75,7 +75,7 @@ nav li {
 nav a {
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .content {
@@ -83,11 +83,11 @@ nav a {
   margin: 0 auto;
   max-width: 960px;
   align-content: center;
-  color: white;
+  color: grey;
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 table {
@@ -106,15 +106,15 @@ th {
 }
 
 .even {
-  background-color: rgb(30, 5, 44);
+  background-color: rgb(255, 48, 54);
 }
 
 .odd {
-  background-color: rgb(23, 0, 226);
+  background-color: rgb(255, 187, 154);
 }
 
 #table-title {
-  background-color: rgb(30, 5, 44);
+  background-color: rgb(203, 4, 154);
 }
 
 form {
@@ -170,6 +170,6 @@ footer {
 }
 
 footer #copyright {
-  color: white;
+  color: black;
   font-family: cursive;
 }
