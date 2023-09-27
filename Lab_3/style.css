@@ -37,7 +37,7 @@ header menu #list-menu {
 }
 
 header #website-name {
-  position: center;
+  position: absolute;
   top: 50px;
   left: 300px;
   color: black;
