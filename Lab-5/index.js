@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         }
         else {
             let ans = parseInt(quantityInput.value) * parseInt(productSelect.value); 
-            result.innerHTML = "Стоимость заказа: $" + ans;
+            result.innerHTML = "Стоимость заказа: " + ans + "₽";
         }
     });
 });
