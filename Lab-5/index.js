@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
             result.innerHTML = "Введите, пожалуйста, количество товара!";
         }
         else {
-            let ans = parseInt(quantityInput.value) * parseInt(productSelect.value); 
+            let ans = parseDouble(quantityInput.value) * parseDouble(productSelect.value); 
             result.innerHTML = "Стоимость заказа: $" + ans;
         }
     });
