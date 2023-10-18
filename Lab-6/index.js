@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
         }
     });
 });
+
+window.addEventListener("DOMContentLoaded", function (event) {
+     let options = document.getElementsByClassName("opt-group");
+     options[0].style.display = "none";
+
+     let checks = document.getElementsByClassName("check-group");
+     checks[0].style.display = "none";
+});
