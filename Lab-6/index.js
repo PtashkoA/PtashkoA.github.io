@@ -111,12 +111,12 @@ window.addEventListener("DOMContentLoaded", function () {
      return {
          productOptions: {
              option1: 25,
-             option2: 45,
-             option3: 70
+             option2: 46,
+             option3: 69
          },
          productProperties: {
-             property1: 10,
-             property2: 15
+             property1: 11,
+             property2: 17
          },
          productTypes: [100, 200, 300]
      };
