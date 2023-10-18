@@ -110,13 +110,13 @@ window.addEventListener("DOMContentLoaded", function () {
  function getPrices() {
      return {
          productOptions: {
-             option1: 25,
-             option2: 46,
-             option3: 69
+             option1: 19,
+             option2: 49,
+             option3: 99
          },
          productProperties: {
-             property1: 11,
-             property2: 17
+             property1: 14,
+             property2: 29
          },
          productTypes: [100, 200, 300]
      };
