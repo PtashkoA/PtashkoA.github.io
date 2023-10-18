@@ -118,6 +118,6 @@ window.addEventListener("DOMContentLoaded", function () {
              property1: 14,
              property2: 29
          },
-         productTypes: [100, 200, 300]
+         productTypes: [99, 149, 249]
      };
  }
