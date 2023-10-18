@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         let str2 = productSelect.value;
         if (str1.match(/^\d+$/) === null || str2.match(/^\d+$/) === null) {
             result.innerHTML = "Введите, пожалуйста, количество товара!";
-        }
-        else {
+        } else {
             let ans = parseInt(quantityInput.value) * parseInt(productSelect.value); 
             result.innerHTML = "Стоимость заказа: ₽" + ans;
         }
@@ -37,6 +36,7 @@ window.addEventListener("DOMContentLoaded", function () {
      let quantityInput = document.getElementById("quantity2");
      quantityInput.addEventListener("input", function () {
          updateResults();
+     });
 
      let radioButtons = document.getElementsByName("productOptions");
      radioButtons.forEach(function (radio) {
