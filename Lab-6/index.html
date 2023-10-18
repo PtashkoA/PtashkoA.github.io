@@ -25,34 +25,35 @@
     <button id="calculateButton">Подсчитать итоговую стоимость</button>
 	<div id="result"></div>
 </div>
-	<form class="form2">
- 	<div class="quantity-group">
- 		<label for="quantity2">Количество товара:</label>
- 		<input type="text" id="quantity2" name="quantity2">
- 	</div>
- 	<div class="product-group">
- 		<label for="product2">Вид товара:</label>
- 		<select id="product2" name="product2">
- 			<option name="prodVal" value="1">Товар #1</option>
- 			<option name="prodVal" value="2">Товар #2</option>
- 			<option name="prodVal" value="3">Товар #3</option>
- 		</select>
- 	</div>
- 	<div class="opt-group">
- 		<label for="opt1">Опция #1</label>
- 		<input type="radio" name="prodOpt" value="opt1"">
- 		<label for="opt2">Опция #2</label>
- 		<input type="radio" name="prodOpt" value="opt2">
- 		<label for="opt3">Опция #3</label>
- 		<input type="radio" name="prodOpt" value="opt3">
- 	</div>
- 	<div class="check-group">
- 		<label for="check1">Каечство #1</label>
- 		<input type="checkbox" class="prodCh" value="ch1">
- 		<label for="check2">Качество #2</label>
- 		<input type="checkbox" class="prodCh" value="ch2">
- 	</div>
- 	<div id="result2"></div>
- </form>
+<form class="form2">
+		<h2>Калькулятор стоимости услуги</h2>
+ 		<div class="quantity-group">
+ 			<label for="quantity2">Количество</label>
+ 			<input type="text" id="quantity2" name="quantity2" value="1">
+ 		</div>
+ 		<div class="product-group">
+ 			<label for="product2">Вид товара:</label>
+ 			<select id="product2" name="product2">
+ 				<option value="1">Товар #1</option>
+ 				<option value="2">Товар #2</option>
+ 				<option value="3">Товар #3</option>
+ 			</select>
+ 		</div>
+ 		<div class="opt-group">
+ 			<label for="opt1">Тип #1</label>
+ 			<input id="opt1" type="radio" name="productOptions" value="option1">
+ 			<label for="opt2">Тип #2</label>
+ 			<input id="opt2" type="radio" name="productOptions" value="option2">
+ 			<label for="opt3">Тип #3</label>
+ 			<input id="opt3" type="radio" name="productOptions" value="option3">
+ 		</div>
+ 		<div class="check-group">
+ 			<label for="check1">Качество #1</label>
+ 			<input id="check1" type="checkbox" class="productProperties" value="property1">
+ 			<label for="check2">Качество #2</label>
+ 			<input id="check2" type="checkbox" class="productProperties" value="property2">
+ 		</div>
+ 		<div id="result2"></div>
+</form>
 </body>
 </html>
