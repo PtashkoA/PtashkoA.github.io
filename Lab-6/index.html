@@ -17,9 +17,9 @@
     <div class="form-group">
         <label for="product">Товар :</label>
         <select id="product" name="product">
-            <option value="25">Товар #1 - 25₽</option>
-            <option value="50">Товар #2 - 50₽</option>
-            <option value="100">Товар #3 - 100₽</option>
+            <option value="25">Товар #1</option>
+            <option value="50">Товар #2</option>
+            <option value="100">Товар #3</option>
         </select>
     </div>
     <button id="calculateButton">Подсчитать итоговую стоимость</button>
@@ -27,30 +27,30 @@
 </div>
 	<form class="form2">
  	<div class="quantity-group">
- 		<label for="quantity2">Количество Товара:</label>
+ 		<label for="quantity2">Количество товара:</label>
  		<input type="text" id="quantity2" name="quantity2">
  	</div>
  	<div class="product-group">
- 		<label for="product2">Количество Товара:</label>
+ 		<label for="product2">Вид товара:</label>
  		<select id="product2" name="product2">
- 			<option value="1">Товар #1</option>
- 			<option value="2">Товар #2</option>
- 			<option value="3">Товар #3</option>
+ 			<option name="prodVal" value="1">Товар #1</option>
+ 			<option name="prodVal" value="2">Товар #2</option>
+ 			<option name="prodVal" value="3">Товар #3</option>
  		</select>
  	</div>
  	<div class="opt-group">
  		<label for="opt1">Опция #1</label>
- 		<input type="radio" id="opt1" value="prodOpt">
+ 		<input type="radio" name="prodOpt" value="opt1"">
  		<label for="opt2">Опция #2</label>
- 		<input type="radio" id="opt2" value="prodOpt">
+ 		<input type="radio" name="prodOpt" value="opt2">
  		<label for="opt3">Опция #3</label>
- 		<input type="radio" id="opt3" value="prodOpt">
+ 		<input type="radio" name="prodOpt" value="opt3">
  	</div>
  	<div class="check-group">
  		<label for="check1">Каечство #1</label>
- 		<input type="checkbox" id="check1" value="prodOpt">
+ 		<input type="checkbox" class="prodCh" value="ch1">
  		<label for="check2">Качество #2</label>
- 		<input type="checkbox" id="check2" value="prodOpt">
+ 		<input type="checkbox" class="prodCh" value="ch2">
  	</div>
  	<div id="result2"></div>
  </form>
