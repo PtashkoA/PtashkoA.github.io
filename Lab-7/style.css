@@ -4,8 +4,7 @@
  }
 
  .slick-slide img {
-   width: 1280;
-   heigth: 800;
+   width: 100%;
  }
 
  .slick-slide {
