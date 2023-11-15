@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           let xhr = new XMLHttpRequest();
          let formData = new FormData(submitForm);
-         xhr.open("POST", "https://formcarry.com/s/vTUnbIdRSE");
+         xhr.open("POST", "https://formcarry.com/s/OtxuH3Yty5");
          xhr.setRequestHeader("Content-Type", "application/json");
          xhr.setRequestHeader("Accept", "application/json");
 
